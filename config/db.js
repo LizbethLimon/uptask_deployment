@@ -2,7 +2,6 @@ const { Sequelize } = require('sequelize');
 
 //importar las variables
 require('dotenv').config({path:'variables.env'});
-
 const db = new Sequelize(
         process.env.BD_NOMBRE,
         process.env.BD_USER,
